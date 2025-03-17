@@ -30,6 +30,12 @@ Servo 5V -> VSD Squadron Mini 5V
 Servo GND -> VSD Squadron Mini GND
 Servo Input -> PC4
 
+# Pinout diagram for Secure Saiyan
+
+![image](https://github.com/user-attachments/assets/79e1792e-21ee-4a19-8ec2-2af3228d0cff)
+
+
+
 
 
 
