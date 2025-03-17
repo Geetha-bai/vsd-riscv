@@ -1,4 +1,4 @@
-# Title 
+![image](https://github.com/user-attachments/assets/368d53cf-8f9d-42a6-ab86-7023b27332ca)![Secure-Saiyan-Circuit-Connection-Diagram](https://github.com/user-attachments/assets/963ba24d-877f-4fbe-8dcf-655e13202b1d)# Title 
 Secure Saiyan
 # Overview 
 The Secure Saiyan provides a modern, secure method of entry, integrating technology to improve traditional locking mechanisms. The primary components include a 4×4 matrix keypad for user input, a VSD Squadron Mini for processing and verification, a servo motor to operate the door handle and an LCD screen to display the Status. When a user enters their passcode on the keypad, the VSD Squadron Mini validates the code against stored authorized code. If the passcode is correct, the VSD Squadron Mini triggers the servo motor to rotate the door handle, while the LCD displays UNLOCKED, thereby unlocking the door, else the LCD displays LOCKED, with the servo motor untriggered. This combination of electronic and mechanical elements ensures reliability and user-friendliness.
@@ -8,7 +8,10 @@ The Secure Saiyan provides a modern, secure method of entry, integrating technol
 -Servo Motor
 -LCD Display
 -Breadboard
--Jumper Wires
+-Jumper Wire
+![Uploading image.png…]()
+
+
 
 
 
