@@ -1,38 +1,30 @@
 # Project name
 Full adder
 # Overview 
-The Secure Saiyan provides a modern, secure method of entry, integrating technology to improve traditional locking mechanisms. The primary components include a 4×4 matrix keypad for user input, a VSD Squadron Mini for processing and verification, a servo motor to operate the door handle and an LCD screen to display the Status. When a user enters their passcode on the keypad, the VSD Squadron Mini validates the code against stored authorized code. If the passcode is correct, the VSD Squadron Mini triggers the servo motor to rotate the door handle, while the LCD displays UNLOCKED, thereby unlocking the door, else the LCD displays LOCKED, with the servo motor untriggered. This combination of electronic and mechanical elements ensures reliability and user-friendliness.
+This project involves the implementation of Full Adder combinational circuit using VSDSquadron Mini, a RISCV based SoC development kit. Full Adder is a very important circuit in digital electronics, widely used in creating the design of n-bits Adder circuit. A full adder circuit is a digital circuit that adds two binary digits and a carry-in digit to produce a sum and carry-out digit. It’s a central component of most digital circuits that perform addition or subtraction. This project demonstrates the practical application of digital logic and RISC-V architecture in executing arithmetic operation, reflecting the process of reading and writing of binary data through GPIO pins, implementing the operation of full adder through digital logic gates which is simulated using PlatformIO IDE and thus displaying the outputs using LEDs.
+
 # Components required
- ![image](https://github.com/user-attachments/assets/9b8f2a1b-6b89-471f-8a32-db080a594e7b)
+•VSDSquadron Mini
+•Push Buttons for Input of binary data
+•2 LEDs for displaying the Output
+•Breadboard
+•Jumper Wires
+•VS Code for Software Development
+PlatformIO multi framework professional IDE
+ 
 
 # Circuit connection
 
-![image](https://github.com/user-attachments/assets/c76b30d1-4e14-4b77-bc9b-99276ad91e9c)
 
-# Pin Connections
--wire 8->PD7
--wire 7->PD6
--wire 6->PD5
--wire 5->PD4
--wire 4->PD3
--wire 3->PD2
--wire 2->PD1
 
-LCD display with I2C interface connections:
--GND (1)->VSD Squadron Mini GND
--VCC (2)->VSD Squadron Mini 5V
--SDA (3)->PC1(SDA Pin)
--SCL (4)->PC2(SCL Pin)
-
-Servo Motor Connections:
-
-Servo 5V -> VSD Squadron Mini 5V
-Servo GND -> VSD Squadron Mini GND
-Servo Input -> PC4
+# Hardware Connections
+•Input: Three input of single bit are connected to the GPIO pins of VSDSquadron Mini via push buttons mounted on the breadboard.
+•Outputs: Two LEDs are connected to display the result of Full Adder
+•The GPIO pins are configured according to the Reference Mannual, ensuring the correct flow of signals between the components
 
 # Pinout diagram for Secure Saiyan
 
-![image](https://github.com/user-attachments/assets/79e1792e-21ee-4a19-8ec2-2af3228d0cff)
+
 
 
 
