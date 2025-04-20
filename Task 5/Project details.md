@@ -12,17 +12,14 @@ This project involves the implementation of Full Adder combinational circuit usi
 •VS Code for Software Development
 PlatformIO multi framework professional IDE
  
-
-# Circuit connection
-
-
-
 # Hardware Connections
 •Input: Three input of single bit are connected to the GPIO pins of VSDSquadron Mini via push buttons mounted on the breadboard.
 •Outputs: Two LEDs are connected to display the result of Full Adder
 •The GPIO pins are configured according to the Reference Mannual, ensuring the correct flow of signals between the components
 
-# Pinout diagram for Secure Saiyan
+# Circuit connection
+![image](https://github.com/user-attachments/assets/98a2e68e-f7c8-45ae-a86c-a98bd18f9a5e)
+
 
 
 
